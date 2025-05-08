@@ -2,6 +2,7 @@
 this file is a stored procedure that loads data into the bronze schema from external csv files
 it first truncates the table and then does a bulk insert
 
+usage example: EXEC bronze.load_bronze
 */
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
